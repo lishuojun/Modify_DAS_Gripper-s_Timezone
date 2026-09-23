@@ -8,23 +8,23 @@ This guide details the steps to upgrade the underlying firmware and configure th
 
 * MicroSD card (formatted to FAT32). You can also plug the microSD card into the device and format it.
 * Access to the latest firmware package from the **DAS-Gripper Version Changelog**. https://zcnma1sv5kma.feishu.cn/wiki/CKpbwye45iOlrckukIPc5hKCndh
-* Windows Terminal, PowerShell, or Git Bash[cite: 1].
+* Windows Terminal, PowerShell, or Git Bash.
 
 ---
 
 ## Step 1: Download & Extract Firmware
 
 1. Download the latest underlying firmware package from the **DAS-Gripper Version Changelog** (e.g., `full_das_firmware_v9.0.0.tar.gz`).
-2. Extract the archive onto your computer so you have the uncompressed folder (e.g., `full_das_firmware_v9.0.0`) containing[cite: 3]:
-   * `full.tar.gz` (or `app.tar`)[cite: 1, 2]
-   * `upgrade_main.ini`[cite: 3]
-   * `upgrade_main.sh`[cite: 3]
+2. Extract the archive onto your computer so you have the uncompressed folder (e.g., `full_das_firmware_v9.0.0`) containing:
+   * `full.tar.gz` (or `app.tar`)
+   * `upgrade_main.ini`
+   * `upgrade_main.sh`
 
 ---
 
 ## Step 2: Configure `upgrade_main.sh`
 
-Replace the existing `upgrade_main.sh` inside the extracted folder based on your operational need[cite: 3]:
+Replace the existing `upgrade_main.sh` inside the extracted folder based on your operational need:
 
 * **Option A: Dynamic Timezone Based on Wi-Fi IP Address**
   > *PT__Timezine_Set*
@@ -56,6 +56,7 @@ tar -czvf "D:\full_das_firmware_v9.0.0.tar.gz" -C "D:\" full_das_firmware_v9.0.0
 
 # Verify the archive contents
 tar -ztvf "D:\full_das_firmware_v9.0.0.tar.gz"
+```
 
 ---
 
