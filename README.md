@@ -69,6 +69,8 @@ tar -ztvf "D:\full_das_firmware_v9.0.0.tar.gz"
 5. Click Update to start the installation.
 6. Wait for the flashing routine to finish and let the device reboot automatically.
 
+---
+
 ## Step 5: Verification
 
 1. After the device restarts, remove the microSD card.
